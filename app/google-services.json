@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "498780881162",
+    "firebase_url": "https://my-movies-project-1a1ee.firebaseio.com",
+    "project_id": "my-movies-project-1a1ee",
+    "storage_bucket": "my-movies-project-1a1ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498780881162:android:0ef93fe96c118ccc",
+        "android_client_info": {
+          "package_name": "com.app.dorsh.imovies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498780881162-jl6ek0rehsp7gg2meuik88eqhbhok3bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE780uVJukUU1dOb3UKryf2o8CofexQT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

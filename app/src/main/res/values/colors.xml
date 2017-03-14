@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00051e</color>
+    <color name="colorPrimaryDark">#000c2c</color>
+    <color name="colorAccent">#d10054</color>
+    <color name="BackgroundPage">#282828</color>
+
+    //EditMovie colors
+    <color name="EditMovieInput">#282828</color>
+    <color name="EditMovieText">#afafaf</color>
+    <color name="EditMovieHint">#ff0066</color>
+
+    //ViewMovie colors
+    <color name="ViewLineINFO">#FFF</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+</resources>

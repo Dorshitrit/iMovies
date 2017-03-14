@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_edit_movie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.app.dorsh.imovies.ui.EditMovie"
+    tools:showIn="@layout/activity_edit_movie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/EditPoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/url_image"
+            android:src="@drawable/mposter" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_title"
+                android:textColorHint="@color/EditMovieHint"
+                android:id="@+id/EditTitle"
+                android:padding="8dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_year"
+                android:id="@+id/EditYear"
+                android:padding="8dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_released"
+                android:id="@+id/EditReleased"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_runtime"
+                android:id="@+id/EditRuntime"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_genre"
+                android:id="@+id/EditGenre"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_director"
+                android:id="@+id/EditDirector"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_writer"
+                android:id="@+id/EditWriter"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_actors"
+                android:id="@+id/EditActor"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_plot"
+                android:id="@+id/EditPlot"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_language"
+                android:id="@+id/EditLanguage"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/EditMovieHint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/EditMovieInput"
+                android:textColor="@color/EditMovieText"
+                android:hint="@string/line_country"
+                android:id="@+id/EditCountry"
+                android:padding="8dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
